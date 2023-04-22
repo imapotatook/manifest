@@ -98,6 +98,15 @@
   <project path="vendor/qcom/opensource/wfd-commonsys" name="LineageOS/android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,waipio-video" remote="LineageOS" />
   <project path="vendor/qcom/opensource/healthd-ext" name="LineageOS/android_vendor_qcom_opensource_healthd-ext" revision="lineage-18.1" remote="LineageOS" />
 
+
+  <!--  Pixel Parts  -->
+  <project path="external/android-nn-driver" name="LineageOS/android_external_android-nn-driver" groups="pdk-lassen,pdk-gs-arm" remote="LineageOS" />
+  <project path="hardware/google/gchips" name="LineageOS/android_hardware_google_gchips" groups="pdk-lassen,pdk-gs-arm" remote="LineageOS" />
+  <project path="hardware/google/graphics/common" name="LineageOS/android_hardware_google_graphics_common" groups="pdk-lassen,pdk-gs-arm" remote="LineageOS" />
+  <project path="hardware/google/pixel" name="LineageOS/android_hardware_google_pixel" groups="generic_fs,pixel" remote="LineageOS" />
+  <project path="hardware/google/pixel-sepolicy" name="LineageOS/android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel" remote="LineageOS" />
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-13.0.0_r0.70" />
+
   <remove-project name="platform/external/noto-fonts" />
   <project name="android_external_noto-fonts" path="external/noto-fonts" remote="proton" groups="proton" />
   <remove-project name="platform/external/roboto-fonts" />

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- GitHub -->
+
+
+  <!-- GitHub (Evolution X) -->
+  <remote  name="evo"
+           fetch="https://github.com/Evolution-X"
+           revision="refs/heads/tiramisu" />
+
+  <!-- GitHub (Evolution X Devices) -->
+  <remote  name="evo-devices"
+           fetch="https://github.com/Evolution-X-Devices"
+           revision="refs/heads/tiramisu" />
+
+  <!-- GitLab (Evolution X) -->
+  <remote  name="evo-gitlab"
+           fetch="https://gitlab.com/EvoX"
+           revision="refs/heads/tiramisu" />
+
+  <!-- GitLab (PE) -->
+  <remote  name="pe-gitlab"
+           fetch="https://gitlab.pixelexperience.org/android"
+           revision="thirteen" />
+
+  <project path="vendor/pixel-framework" name="vendor_pixel-framework" revision="tiramisu-pixel" remote="evo" />
+  <project path="vendor/google/interfaces" name="vendor_google_interfaces" revision="tiramisu-pixel" remote="evo" />
+  </manifest>
