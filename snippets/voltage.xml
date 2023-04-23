@@ -13,6 +13,10 @@
            revision="13"
            fetch="https://github.com/VoltageOS-Devices" />
 
+   <remote  name="custom"
+           revision="13"
+           fetch="https://github.com/imapotatook" />
+
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
 
@@ -122,7 +126,7 @@
     <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="voltage" />
 
     <!-- System -->
-    <project path="system/core" name="system_core" remote="voltage" />
+    <project path="system/core" name="android_system_core" revision="voltage" remote="custom" />
     <project path="system/sepolicy" name="system_sepolicy" remote="voltage" />
     <project path="system/update_engine" name="system_update_engine" remote="voltage" />
     <project path="system/libhidl" name="system_libhidl" remote="voltage" />
