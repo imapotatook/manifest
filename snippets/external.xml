@@ -116,5 +116,7 @@
   <remove-project name="platform/external/google-fonts/cutive-mono" />
 
   <project path="external/Camera" name="platform_external_Camera" remote="grapheneos" />
+  <project path="bionic" name="platform_bionic" groups="pdk" remote="grapheneos" />
+  <project path="external/hardened_malloc" name="hardened_malloc" remote="grapheneos" />
 
 </manifest>
