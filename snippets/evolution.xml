@@ -24,6 +24,5 @@
            fetch="https://gitlab.pixelexperience.org/android"
            revision="thirteen" />
 
-  <project path="vendor/pixel-framework" name="vendor_pixel-framework" revision="tiramisu-pixel" remote="evo" />
   <project path="vendor/google/interfaces" name="vendor_google_interfaces" revision="tiramisu-pixel" remote="evo" />
   </manifest>

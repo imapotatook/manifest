@@ -116,7 +116,7 @@
   <project path="device/google/pantah" name="android_device_google_pantah" remote="custom" revision="voltage-rebase" />
 
   <!-- Pixel Framework -->
-  <project path="vendor/pixel-framework" name="voltage_vendor_pixel-framework" remote="custom" />
+  <project path="vendor/pixel-framework" name="voltage_vendor_pixel-framework" remote="custom" revision="main"/>
 
 
   <!--  Pixel Parts  -->
