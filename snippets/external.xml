@@ -110,6 +110,14 @@
   <project path="vendor/qcom/opensource/wfd-commonsys" name="LineageOS/android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,waipio-video" remote="LineageOS" />
   <project path="vendor/qcom/opensource/healthd-ext" name="LineageOS/android_vendor_qcom_opensource_healthd-ext" revision="lineage-18.1" remote="LineageOS" />
 
+  <!-- Device -->
+  <project path="device/google/gs101" name="android_device_google_gs101" remote="custom" revision="voltage-rebase" />
+  <project path="device/google/gs201" name="android_device_google_gs201" remote="custom" revision="voltage-rebase" />
+  <project path="device/google/pantah" name="android_device_google_pantah" remote="custom" revision="voltage-rebase" />
+
+  <!-- Pixel Framework -->
+  <project path="vendor/pixel-framework" name="voltage_vendor_pixel-framework" remote="custom" />
+
 
   <!--  Pixel Parts  -->
   <project path="external/android-nn-driver" name="LineageOS/android_external_android-nn-driver" groups="pdk-lassen,pdk-gs-arm" remote="LineageOS" />
