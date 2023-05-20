@@ -13,6 +13,15 @@
            fetch="https://github.com/" />
 
   <!-- External -->
+  <project path="external/chromium-webview/patches" name="LineageOS/android_external_chromium-webview_patches" remote="LineageOS" groups="pdk" revision="main" >
+    <linkfile src="Android.mk" dest="external/chromium-webview/Android.mk" />
+    <linkfile src="CleanSpec.mk" dest="external/chromium-webview/CleanSpec.mk" />
+    <linkfile src="README" dest="external/chromium-webview/README" />
+  </project>
+  <project path="external/chromium-webview/prebuilt/arm" name="LineageOS/android_external_chromium-webview_prebuilt_arm" remote="LineageOS" groups="pdk" revision="main" />
+  <project path="external/chromium-webview/prebuilt/arm64" name="LineageOS/android_external_chromium-webview_prebuilt_arm64" remote="LineageOS" groups="pdk" revision="main" />
+  <project path="external/chromium-webview/prebuilt/x86" name="LineageOS/android_external_chromium-webview_prebuilt_x86" remote="LineageOS" groups="pdk" revision="main" />
+  <project path="external/chromium-webview/prebuilt/x86_64" name="LineageOS/android_external_chromium-webview_prebuilt_x86_64" remote="LineageOS" groups="pdk" revision="main" />
   <project path="external/ant-wireless/ant_client" name="LineageOS/android_external_ant-wireless_ant_client" groups="qcom,sdm660" remote="LineageOS" />
   <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" groups="qcom,sdm660" remote="LineageOS" />
   <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" groups="qcom,sdm660" remote="LineageOS" />
@@ -108,7 +117,9 @@
   <project path="hardware/google/graphics/common" name="LineageOS/android_hardware_google_graphics_common" groups="pdk-lassen,pdk-gs-arm" remote="LineageOS" />
   <project path="hardware/google/pixel" name="LineageOS/android_hardware_google_pixel" groups="generic_fs,pixel" remote="LineageOS" />
   <project path="hardware/google/pixel-sepolicy" name="LineageOS/android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel" remote="LineageOS" />
-  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-13.0.0_r0.70" />
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-13.0.0_r0.75" />
+  <project path="prebuilts/clang/kernel/linux-x86/clang-r416183b" name="LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b" remote="LineageOS" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" remote="LineageOS" groups="pdk,linux,x86" clone-depth="1" revision="lineage-19.1" />
 
   <remove-project name="platform/external/noto-fonts" />
   <project name="android_external_noto-fonts" path="external/noto-fonts" remote="proton" groups="proton" />
