@@ -49,7 +49,7 @@
 
     <!-- Framework -->
     <project path="frameworks/av" name="frameworks_av" remote="voltage" />
-    <project path="frameworks/base" name="frameworks_base" remote="voltage" />
+    <project path="frameworks/base" name="voltage_frameworks_base" remote="custom" />
     <project path="frameworks/native" name="frameworks_native" remote="voltage" />
     <project path="frameworks/rs" name="frameworks_rs" remote="voltage" />
     <project path="frameworks/libs/net" name="frameworks_libs_net" remote="voltage" />
