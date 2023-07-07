@@ -25,4 +25,5 @@
            revision="thirteen" />
 
   <project path="vendor/google/interfaces" name="vendor_google_interfaces" revision="tiramisu-pixel" remote="evo" />
+  <project path="packages/apps/PixelParts" name="packages_apps_PixelParts" revision="tiramisu" remote="evo-devices" />
   </manifest>
