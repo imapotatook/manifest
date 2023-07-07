@@ -51,6 +51,15 @@
   <remove-project name="device/google/pantah" />
   <remove-project name="device/google/pantah-kernel" />
   <remove-project name="device/google/pantah-sepolicy" />
+  <remove-project name="device/google/lynx" />
+  <remove-project name="device/google/lynx-kernel" />
+  <remove-project name="device/google/lynx-sepolicy" />
+  <remove-project name="device/google/felix" />
+  <remove-project name="device/google/felix-kernel" />
+  <remove-project name="device/google/felix-sepolicy" />
+  <remove-project name="device/google/tangorpro" />
+  <remove-project name="device/google/tangorpro-kernel" />
+  <remove-project name="device/google/tangorpro-sepolicy" />
   <remove-project name="device/google/vrservices" />
   <remove-project name="device/linaro/dragonboard" />
   <remove-project name="device/linaro/dragonboard-kernel" />
@@ -95,6 +104,7 @@
   <remove-project name="platform/packages/apps/DocumentsUI" />
   <remove-project name="platform/packages/apps/Gallery2" />
   <remove-project name="platform/packages/apps/Stk" />
+  <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/services/Telecomm"/>
   <remove-project name="platform/packages/services/Telephony"/>
@@ -112,6 +122,7 @@
   <!-- Hardware -->
   <remove-project name="platform/hardware/libhardware"/>
   <remove-project name="platform/hardware/interfaces"/>
+  <remove-project name="platform/hardware/qcom/wlan"/>
   <remove-project name="platform/hardware/google/gchips" />
   <remove-project name="platform/hardware/google/graphics/common" />
   <remove-project name="platform/hardware/google/pixel" />
@@ -136,6 +147,7 @@
   <remove-project name="platform/external/jemalloc_new"/>
   <remove-project name="platform/external/sqlite"/>
   <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/chromium-webview" />
 
 
